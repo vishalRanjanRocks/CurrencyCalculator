@@ -1,0 +1,62 @@
+2025-05-12 18:51:47.854 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 18:51:50.822 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 2977ms | CorrelationId: 9c899a96-72dd-4920-b2f1-ac87ca3ff0c3
+2025-05-12 18:52:19.186 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 14ms | CorrelationId: 083b9449-663c-48ec-9b6d-4014270241bf
+2025-05-12 19:00:09.968 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 19:00:13.945 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 3988ms | CorrelationId: ba8752f9-54ce-41c9-8cc4-25ff67b71ef5
+2025-05-12 19:01:14.317 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 28ms | CorrelationId: a6db3753-6589-4831-aed8-8417731c9b3b
+2025-05-12 19:02:15.376 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 3ms | CorrelationId: 6adc397d-844a-44bb-94da-9e37b592b05d
+2025-05-12 19:02:56.682 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 19:02:57.370 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /.well-known/appspecific/com.chrome.devtools.json | Status: 404 | Time: 714ms | CorrelationId: cf6d2d3e-0735-4151-a8fc-d59b4afb45b2
+2025-05-12 19:03:04.362 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 57ms | CorrelationId: bfb4d95b-ac48-4a72-ae48-6d3637f62b02
+2025-05-12 19:03:56.701 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 2330ms | CorrelationId: 332a4381-dd0b-443a-9f17-8c08f032a002
+2025-05-12 19:04:31.505 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 2ms | CorrelationId: 5f02c0bb-b13c-49b3-a7f1-06b67126c0a3
+2025-05-12 19:05:12.263 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 124ms | CorrelationId: 83ec2c6a-81ac-4328-a088-3e318f0d955b
+2025-05-12 19:07:15.462 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 5ms | CorrelationId: 6291566b-b6f9-4990-9cf4-df8f630ad228
+2025-05-12 19:10:42.253 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 19:10:45.732 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 3489ms | CorrelationId: 94e3093b-de0d-40fb-a6ee-31f182ba66b6
+2025-05-12 19:11:09.262 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 14ms | CorrelationId: 2b4ced62-cbf0-4f5a-b2a2-15cc8691adb9
+2025-05-12 19:11:51.742 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 4ms | CorrelationId: ed43af59-0a1b-4abd-ab23-7286c9e90cbe
+2025-05-12 19:12:07.283 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /.well-known/appspecific/com.chrome.devtools.json | Status: 404 | Time: 0ms | CorrelationId: fc525aa6-4051-4bf3-972a-1649b9690486
+2025-05-12 19:12:12.435 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 2ms | CorrelationId: 182ce164-5950-4c33-b1f7-ad56ca41b637
+2025-05-12 19:13:24.407 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 0ms | CorrelationId: d8aca102-d969-4a6b-b7ff-a186514f0b43
+2025-05-12 19:17:58.254 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 19:17:58.525 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 279ms | CorrelationId: 9b7e77ee-ec90-4aa6-9917-e521e0be0990
+2025-05-12 19:22:51.687 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 19:22:57.526 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 5848ms | CorrelationId: c8f09cd0-3f29-4200-8e25-a77cd2a32550
+2025-05-12 19:23:20.371 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 22ms | CorrelationId: 2e9d1393-510c-497f-979f-425095eb94c6
+2025-05-12 19:23:36.790 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 23ms | CorrelationId: 079387e7-1501-4c84-b7d3-ad031c179494
+2025-05-12 19:24:20.852 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 11251ms | CorrelationId: ddc22a5d-3ff8-4d20-bdb2-8aadaae87f0a
+2025-05-12 19:24:27.602 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 1ms | CorrelationId: 62af25da-795d-4028-bb1e-d5d13596b22f
+2025-05-12 19:24:50.639 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/ExchangeRates/convert | Status: 401 | Time: 0ms | CorrelationId: 1ec76c63-7a8f-4332-adbb-3eea6714508c
+2025-05-12 20:54:27.920 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 20:54:31.620 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 3709ms | CorrelationId: 3a5be21e-c7ea-48db-8de2-fe9373b293d0
+2025-05-12 20:55:37.457 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 1847ms | CorrelationId: 6e4af323-bb9d-4aa1-a120-e6ec2b3177dd
+2025-05-12 20:59:38.273 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 20:59:38.580 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 401 | Time: 317ms | CorrelationId: 265e612c-5899-4a0f-8d49-7ef97a0f1c61
+2025-05-12 21:02:49.979 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:02:52.332 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 2365ms | CorrelationId: cab0c97d-529b-4240-b793-f6db9990035f
+2025-05-12 21:17:46.208 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:17:49.093 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 2894ms | CorrelationId: 82f1be17-499b-45d2-9b4d-023a6737c051
+2025-05-12 21:23:27.116 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:23:43.519 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 16411ms | CorrelationId: f3613e62-0dde-4692-8304-68abb322ba30
+2025-05-12 21:24:21.851 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /api/ExchangeRates/latest | Status: 401 | Time: 17ms | CorrelationId: c5dbe023-0f32-4b62-aae1-9e81fa09e823
+2025-05-12 21:27:41.196 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 74979ms | CorrelationId: 9bf94c72-f495-4857-94f4-2c3e583d6ce9
+2025-05-12 21:28:38.358 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 52694ms | CorrelationId: 5d23b6bc-3b28-4f00-9a2e-7bafb062d23c
+2025-05-12 21:34:33.283 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:34:33.710 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 401 | Time: 434ms | CorrelationId: 0f91c306-0257-45d8-971c-4b871e259b0d
+2025-05-12 21:35:00.910 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 14535ms | CorrelationId: 22a60834-c840-40bd-a62a-f4e352bf3271
+2025-05-12 21:37:55.530 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:38:38.939 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/IAM/login | Status: 200 | Time: 43419ms | CorrelationId: e5608bab-2094-4cce-8737-24134677606a
+2025-05-12 21:45:00.676 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:55:29.577 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:55:47.939 +05:30 [INF] Start processing HTTP request GET https://api.frankfurter.dev/v1/latest?*
+2025-05-12 21:55:47.948 +05:30 [INF] Sending HTTP request GET https://api.frankfurter.dev/v1/latest?*
+2025-05-12 21:55:48.775 +05:30 [INF] Received HTTP response headers after 822.8536ms - 200
+2025-05-12 21:55:48.781 +05:30 [INF] End processing HTTP request after 849.989ms - 200
+2025-05-12 21:56:07.959 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/ExchangeRates/convert | Status: 200 | Time: 38396ms | CorrelationId: adad0e76-d161-4f7b-848a-83c9f8766f4c
+2025-05-12 21:57:18.049 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-12 21:57:45.951 +05:30 [INF] Start processing HTTP request GET https://api.frankfurter.dev/v1/latest?*
+2025-05-12 21:57:45.960 +05:30 [INF] Sending HTTP request GET https://api.frankfurter.dev/v1/latest?*
+2025-05-12 21:57:46.567 +05:30 [INF] Received HTTP response headers after 602.5966ms - 200
+2025-05-12 21:57:46.573 +05:30 [INF] End processing HTTP request after 628.5684ms - 200
+2025-05-12 21:58:13.357 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | POST /api/ExchangeRates/convert | Status: 200 | Time: 55316ms | CorrelationId: b814742c-aa52-41eb-a820-91df002621b3

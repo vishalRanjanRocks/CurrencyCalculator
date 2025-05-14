@@ -1,0 +1,2 @@
+2025-05-13 07:58:39.975 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-05-13 07:58:40.280 +05:30 [INF] ClientIP: ::1 | ClientId: anonymous | GET /.well-known/appspecific/com.chrome.devtools.json | Status: 404 | Time: 317ms | CorrelationId: 848b028b-a98d-4785-8777-1c83ec81f824

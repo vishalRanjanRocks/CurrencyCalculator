@@ -2,7 +2,7 @@
 
 A robust, secure, and scalable currency conversion API built with ASP.NET Core (.NET 8). This API integrates with the Frankfurter public API to fetch exchange rates, supports JWT-based authentication, rate limiting, caching, structured logging, distributed tracing, and more.
 
----
+--- 
 
 ## 🚀 Features
 

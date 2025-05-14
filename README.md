@@ -27,39 +27,74 @@ A robust, secure, and scalable currency conversion API built with ASP.NET Core (
 
 ### 2. ⚙️ Configuration
 
-1.	Clone the repository
-           a. git clone <your-repo-url>
-           b. cd CurrencyExchange
-2.	Install .NET 8 SDK
-          a. Download from Microsoft .NET.
-3.	Restore dependencies
-          a. dotnet restore
-4.	Configure settings
-          •Edit CurrencyExchange/appsettings.json and appsettings.Development.json for API keys, provider URLs, and JWT settings as needed.
-5.	Run the API
-          a. dotnet run --project CurrencyExchange
-6.    Run Tests and View Coverage
-          a. dotnet test --collect:"XPlat Code Coverage"
-          b. reportgenerator -reports:"TestResults/**/coverage.cobertura.xml" -targetdir:"coverage-report" -reporttypes:Html
-          c. start coverage-report/index.html
+    ##Clone the repository
+    1. git clone https://github.com/vishalRanjanRocks/CurrencyCalculator
+    2. cd CurrencyExchange
+
+    ##Install .NET 8 SDK
+    1. Download from Microsoft .NET.
+
+    ##Restore dependencies
+    1. Restore dependencies
+
+    ##Run the API
+    1. dotnet run --project CurrencyExchange
+
+    ## Run Tests and View Coverage
+    1. dotnet test --collect:"XPlat Code Coverage"
+    2. reportgenerator -reports:"TestResults/**/coverage.cobertura.xml" -targetdir:"coverage-report" -reporttypes:Html
+    3. start coverage-report/index.html
+
+### 3. 🚀 Deployment Strategy
+1. Environment-Specific Configuration
+   
+2.  1. Build & Release Pipeline (CI/CD)
+    2. Build and restore dependencies
+    3. Run unit & integration tests
+    4. Collect and publish test coverage
+  
+3. Deploy to Azure App Service (Linux)
+| Environment | Platform             | Strategy                         |
+| ----------- | -------------------- | -------------------------------- |
+| **Dev**     | Local / Azure (B1)   | Debug build, local cache         |
+| **Test**    | Azure App Service    | Rate limits & full JWT/RBAC      |
+| **Prod**    | Azure / Docker / K8s | Auto-scale, observability, Redis |
+
+4. Horizontal Scaling
+Designed to be stateless, supporting multiple instances.
+Rate limiting is IP-based and globally applied.
+Use Redis distributed cache (future enhancement) for shared state.
+Can be deployed to:
+Azure App Service Plan (scale-out)
+Azure Kubernetes Service (AKS)
+Docker Swarm / ECS
+
+5. Observability
+Logs (Serilog) are structured and correlate with:
+Correlation ID
+JWT Client ID
+Distributed tracing with OpenTelemetry
+Supports Seq, ELK, or Azure Monitor integration
+
+6. Health & Monitoring
+Expose /ping or /health endpoint (add if missing)
+Azure App Insights / Prometheus support via OpenTelemetry
+
 
 ###  Assumptions Made ###
 1. Small Application : In case of small application.It is created with monolithic architecture
 2. Assuming user is already present in Database.For login just to pass role either as "Admin" or "User" and Password as "password"
 3. Redis or distributed cache is not used; in-memory cache is sufficient for now.
-4.Rate limiting is applied per IP address globally.
-5.Roles used are "Admin" and "User" only.
-6.Frankfurter API is considered stable and reliable.
+4. Rate limiting is applied per IP address globally.
+5. Roles used are "Admin" and "User" only.
+6. Frankfurter API is considered stable and reliable.
 
 ### Possible Future Enchancements ###
-✅ Add support for Redis distributed cache for production scaling
-🧾 Swagger-based client generation for SDKs
-🌐 Multi-provider currency rates (e.g., ExchangeRatesAPI, Fixer.io)
-📉 Historical chart data visualization (via frontend)
-📦 Dockerize and deploy to Azure/Kubernetes
-👨‍💼 Replace static password with Identity provider (Azure AD, IdentityServer)
-📊 Store conversion logs and analytics in database
-📂 Add file-based or cloud-based logging (Serilog + Seq/ELK)
+1. Add support for Redis distributed cache for production scaling
+2.  Multi-provider currency rates (e.g., ExchangeRatesAPI, Fixer.io)
+3.  Dockerize and deploy to Azure/Kubernetes
+4.  Replace static password with Identity provider (Azure AD, IdentityServer)
+5.  Add file-based or cloud-based logging (Serilog + Seq/ELK)
 
 ### Imprortant Note ###
 1. Missed to implement factory design Pattern to accomodate dynamic selection of currency exchange
